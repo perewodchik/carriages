@@ -1,0 +1,41 @@
+8
+name=Kolya
+id=1
+size=70
+animals=1
+13
+name=Denis
+id=5
+size=65
+animals=2
+20 67
+name=Valera
+id=7
+size=60
+animals=2
+10 18
+name=Naruto
+id=8
+size=48
+animals=1
+69
+name=Garrosh
+id=34
+size=100
+animals=1
+48
+name=Danya
+id=3
+size=55
+animals=3
+12 23 14
+name=Jaina
+id=30
+size=63
+animals=1
+39
+name=Thrall
+id=50
+size=84
+animals=1
+68
