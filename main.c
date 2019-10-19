@@ -9,12 +9,12 @@ int main(){
         Carriage* carriages;
         ReadAnimals(&animals, &animalAmount);
         ReadHumans(&humans, &humanAmount);
-        MatchAnimals(&humans, humanAmount, animals, animalAmount);
         ReadCarriages(&carriages, &carriageAmount, &capacity);
         SortAnimalsBySize(animals, animalAmount);
         SortHumansBySize(humans, humanAmount);
         AllocateCarriages(&carriages, carriageAmount, capacity,
                 animals, animalAmount, humans, humanAmount);
+        MatchAnimals(&humans, humanAmount, animals, animalAmount);
         PrintCarriages(carriages, carriageAmount, capacity);
         PrintHumans(humans, humanAmount);
         FreeAll(humans,humanAmount, animals, animalAmount,
